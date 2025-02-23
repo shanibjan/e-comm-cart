@@ -37,8 +37,6 @@ The API will be available at `http://localhost:7000/`
 ### 🔹 Products
 - **POST** `/add-product` → Add a new product (requires image upload)
 - **GET** `/get-products` → Get all products
-- **PUT** `/update-product/:id` → Update product details
-- **DELETE** `/delete-product/:id` → Remove a product
 
 ### 🔹 Cart
 - **POST** `/add-to-cart` → Add a product to cart
