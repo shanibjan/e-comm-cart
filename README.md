@@ -26,37 +26,13 @@ This is a backend API for an e-commerce platform where users can add, edit, dele
 
 ---
 
-## 📥 Installation & Setup
 
-### 1️⃣ Clone the Repository
-```sh
-    git clone <repository_url>
-    cd e-commerce-api
-```
 
-### 2️⃣ Install Dependencies
-```sh
-    npm install
-```
-
-### 3️⃣ Set up Environment Variables
-Create a `.env` file in the root directory and add the following:
-```sh
-MONGO_URI=<your_mongodb_connection_string>
-RAZORPAY_KEY_ID=<your_razorpay_key>
-RAZORPAY_KEY_SECRET=<your_razorpay_secret>
-```
-
-### 4️⃣ Start the Server
-```sh
-    npm start
-```
-
-The API will be available at `http://localhost:5000/`
+The API will be available at `http://localhost:7000/`
 
 ---
 
-## 🔗 API Endpoints
+##  API Endpoints
 
 ### 🔹 Products
 - **POST** `/add-product` → Add a new product (requires image upload)
@@ -82,7 +58,7 @@ The API will be available at `http://localhost:5000/`
 ## 🔒 Input Validation
 
 ### Product Validation
-- Ensure **name, price, stock, and image** are provided when adding a product.
+- Ensure **name, price, stock, and image** are provided when adding a product validation through formik and yup.
 
 ### Cart Validation
 - Prevent duplicate products in the cart by increasing/decreasing quantity instead.
@@ -94,22 +70,7 @@ The API will be available at `http://localhost:5000/`
 
 ---
 
-## 🌍 Deployment Steps
-1. Push the project to **GitHub/GitLab**:
-```sh
-    git init
-    git add .
-    git commit -m "Initial commit"
-    git branch -M main
-    git remote add origin <repository_url>
-    git push -u origin main
-```
-2. Deploy on platforms like **Render, Vercel, or DigitalOcean**.
 
----
 
-## 📌 License
-This project is open-source and available for use.
 
-📌 **GitHub/GitLab Repository Link**: [Coming Soon] 🚀
 
